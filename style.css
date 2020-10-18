@@ -19,8 +19,8 @@ box-sizing: border-box;
 display: inline-block;}
 #container .pizza .imgbox{position: relative;}
 #container .pizza .imgbox img{max-width: 100%;}
-#container .pizza .imgbox #pizza1{height: 220px;}
-#container .pizza .imgbox #pizza2{height: 220px;
+#container .pizza .imgbox #pizza1{height: 205px;}
+#container .pizza .imgbox #pizza2{height: 205px;
 width: 300px;}
-#container .pizza .imgbox #pizza3{height: 220px;}
-#container .pizza .imgbox #pizza4{height: 220px;}
+#container .pizza .imgbox #pizza3{height: 205px;}
+#container .pizza .imgbox #pizza4{height: 205px;}
