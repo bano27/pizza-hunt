@@ -1,0 +1,26 @@
+#navbar{background-color: #ffff00;}
+#title{background-color: #ff4500;}
+#main{background-color: #ff4500;}
+#body{background-color: #ff4500;}
+h2{text-align: center;}
+#myfooter{background-color: #ffff00;}
+#container{width: 1280px;
+min-height: 300px;
+margin: 70px auto 0;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;}
+#container .pizza{position: relative;
+width: 250px;
+height: 205px;
+background: #ff0;
+margin: 10px;
+box-sizing: border-box;
+display: inline-block;}
+#container .pizza .imgbox{position: relative;}
+#container .pizza .imgbox img{max-width: 100%;}
+#container .pizza .imgbox #pizza1{height: 220px;}
+#container .pizza .imgbox #pizza2{height: 220px;
+width: 300px;}
+#container .pizza .imgbox #pizza3{height: 220px;}
+#container .pizza .imgbox #pizza4{height: 220px;}

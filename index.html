@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="bootstrap.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="style.css" type="text/css">
   </head>
-  <body>
+  <body id="body">
     <header>
       <div class="container-fluid p-0" id="navbar">
         <nav class="navbar navbar-expand-lg">
@@ -49,35 +49,34 @@
       </div>
     </header>
     <br><br>
-    <main>
+    <main id="main">
       <section class="section1">
         <div class="container" id="order">
           <h2>PIZZA HUNT MENU</h2>
           <div class="container" id="container">
             <div class="box pizza">
               <div class="imgbox">
-                <img src="Images/pizza1.jpeg" alt="">
+                <img src="Images/pizza1.jpeg" alt="" id="pizza1">
               </div>
             </div>
             <div class="box pizza">
               <div class="imgbox">
-                <img src="Images/pizza2.jpeg" alt="">
+                <img src="Images/pizza2.jpeg" alt="" id="pizza2">
               </div>
             </div>
             <div class="box pizza">
               <div class="imgbox">
-                <img src="Images/pizza3.jpeg" alt="">
+                <img src="Images/pizza3.jpeg" alt="" id="pizza3">
               </div>
             </div>
             <div class="box pizza">
               <div class="imgbox">
-                <img src="Images/pizza4.jpeg" alt="">
+                <img src="Images/pizza4.jpeg" alt="" id="pizza4">
               </div>
             </div>
           </div>
         </div>
       </section>
-      <br><br>
       <section class="section2">
         <div class="row">
           <div class="col-md-12 col-sm-12" id="table1">
@@ -120,7 +119,7 @@
         <br>
         <div class="row">
           <div class="col-md-12 col-sm-12" id="crusts">
-            <table class="crusts" id="crustings">
+            <table class="table" id="crustings">
               <tr>
                 <td>CRUSTS</td>
                 <td>ADDITIONAL COST</td>
@@ -144,8 +143,8 @@
       <br><br>
       <section class="section3">
         <div class="container">
-          <form class="pizza-hunt" action="index.html" method="post">
-            <label class="menu"><span class="pizza">PIZZA</span> <span class="hunt">HUNT</span> place your order here</label>
+          <form class="form" action="index.html" method="post" id="myForm">
+            <h2>Place your order here</h2>
             <br><br>
             <div class="row">
               <div class="col-md-4 col-sm-12">
@@ -179,6 +178,7 @@
                 </select>
               </div>
               <br><br>
+              <br>
               <div class="col-md-12 col-sm-12">
                 <label for="Pizza">PIZZA CRUSTS</label>
                 <select class="form-control" name="">
@@ -187,6 +187,7 @@
                   <option value="Fisherman Smile">Fisherman Smile</option>
                 </select>
               </div>
+              <br>
               <div class="container">
                 <p>Incase of Deliveries we have a standard cost of additional 500ksh</p>
               </div>
@@ -205,7 +206,7 @@
       </section>
     </main>
     <br><br>
-    <footer>
+    <footer id="myfooter">
       <div class="container">
         <p>copright &copy; Benard Thairu Kibe 2019</p>
       </div>
