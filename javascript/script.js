@@ -36,4 +36,4 @@ else if (v === "Veggie Seekers" && x === "Veggie Seekers Small") {
 
 
 
-alert("YOUR ORDER WAS"+ " "+ v + " "+ w + " "+ x + " "+ y + " "+ z + " " + "TOTAL COST OF YOUR ORDER IS" + "" + price) }
+alert("YOUR ORDER WAS"+ " "+ v + " "+ w + " "+ x + " "+ y + " "+ z + " " + "TOTAL COST OF YOUR ORDER IS") }

@@ -25,3 +25,5 @@ width: 300px;}
 #container .pizza .imgbox #pizza3{height: 205px;}
 #container .pizza .imgbox #pizza4{height: 205px;}
 #table3{background-color: #ffc0cb;}
+#deliveries{display: block;}
+#pickup{background-color: pink;}
