@@ -9,4 +9,4 @@ var y = document.getElementById('crusts').value;
 var z = document.getElementById('orders').value;
 
 
-alert("TOTAL COST OF YOUR ORDER IS") }
+alert("YOUR ORDER WAS"+ " "+ v + " "+ w + " "+ x + " "+ y + " "+ z + " " + "TOTAL COST OF YOUR ORDER IS") }
