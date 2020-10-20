@@ -2,6 +2,8 @@
 
 function submitted(){
 
+const oForm = document.getElementById("myForm")
+
 var v = document.getElementById('type').value;
 var w = document.getElementById('toppings').value;
 var x = document.getElementById('size').value;
@@ -186,18 +188,26 @@ else ( w == "Veggie Seekers toppings" && x == "Veggie Seekers Large" && y == "Rh
   price = ( ( vLarge * z ) + b );
 }
 
-document.querySelector("#summary").innerhtml = price;
+myForm.addEventListener("submitted", (e) => {
+e.preventDefault();
+document.querySelector("#summary").innerhtml = v + w + x + y + z + delivery + price;
 
-}
+});
 
 //delivery form
 
 function submit(){
 
+const dForm = document.getElementById("deliveries")
+
 var name = document.getElementById('name').value;
 var pNumber = document.getElementById('pNumber').value;
 var location = document.getElementById('locate').value;
 
+dForm.addEventListener("submit", (e) => {
+e.preventDefault();
 alert("Hello " + name + " " + "you will recieve your delivery at " + location + " " + "we shall use this " + pNumber + " to communicate with you");
 
-}
+});
+
+//jquery
