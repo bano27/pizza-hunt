@@ -1,7 +1,5 @@
 //ordering form
 
-const myForm = document.getElementById("myForm")
-
 function submitted(){
 
 var v = document.getElementById('type').value;
