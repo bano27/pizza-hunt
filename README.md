@@ -5,7 +5,7 @@
 
 Pizza Hunt is a web application created to expand my pizza place customer range. Customers are able to go online to our site and make orders for their favorite types of pizza and upon request of delivery we offer the service too.
 
-follow this link to our live site [link]()   
+follow this link to our live site [link](https://bano27.github.io/pizza-hunt/)   
 
 ---
 
