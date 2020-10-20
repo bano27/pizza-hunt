@@ -191,3 +191,15 @@ else ( w == "Veggie Seekers toppings" && x == "Veggie Seekers Large" && y == "Rh
 document.querySelector("#summary").innerhtml = price;
 
 }
+
+//delivery form
+
+function submit(){
+
+var name = document.getElementById('name').value;
+var pNumber = document.getElementById('pNumber').value;
+var location = document.getElementById('locate').value;
+
+alert("Hello " + name + " " + "you will recieve your delivery at " + location + " " + "we shall use this " + pNumber + " to communicate with you");
+
+}
