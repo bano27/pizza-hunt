@@ -187,3 +187,7 @@ else if ( w == "Veggie Seekers toppings" && x == "Veggie Seekers Medium" && y ==
 else ( w == "Veggie Seekers toppings" && x == "Veggie Seekers Large" && y == "Rhino Hide" && delivery[1].checked) {
   price = ( ( vLarge * z ) + b );
 }
+
+document.querySelector("#summary").innerhtml = price;
+
+}

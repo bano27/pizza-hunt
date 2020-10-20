@@ -118,7 +118,7 @@
         </div>
         <br>
         <div class="row">
-          <div class="col-md-12 col-sm-12" id="crusts">
+          <div class="col-md-12 col-sm-12" id="crusts-table">
             <table class="table" id="crustings">
               <tr id="table3">
                 <td>CRUSTS</td>
@@ -214,7 +214,7 @@
                 <input type="radio" id="NO" name="Deliveries" value="NO Delivery">
               </div>
               <br><br>
-              <button type="submit" onclick="submitted()" name="Submit Order" class="btn btn-danger" value="submit">Submit order</button>
+              <input type="submit" name="submit" value="submit" onclick="submitted()" id="best" class="btn btn-danger">
             </div>
           </form>
           <br><br>
@@ -229,7 +229,7 @@
             <input type="text" name="name" value="" placeholder="Enter your name">
             <input type="tel" name="phone number" value="" placeholder="Enter your phone number">
             <input type="text" name="location" value="" placeholder="i.e ongata, Rongai">
-            <input type="submit" name="submit" value="submit" onsubmit="submit()" id="pickup">
+            <input type="submit" name="submit" value="submit" onclick="submit()" id="pickup">
           </form>
         </div>
       </section>
